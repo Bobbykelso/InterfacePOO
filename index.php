@@ -24,3 +24,15 @@ catch(Exception $e) {
 finally {
     echo "Ma voiture roule comme un donut";
 };
+
+// interfacePOO
+
+$myCar = new Car('red',2,'electric');
+$myBicycle = new Bicycle('red',1);
+
+$myCar->switchOn();
+$myCar->switchOff();
+
+$myBicycle->switchOn(0);
+$myBicycle->switchOn(15);
+$myBicycle->switchOff();
